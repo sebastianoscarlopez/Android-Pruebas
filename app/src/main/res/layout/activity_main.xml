@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="ar.com.sebas.pruebas.MainActivity">
+
+    <Button
+        android:id="@+id/btnAsynCall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="btnAsynCall_onClick"
+        android:text="Llamada Asincronica"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="78dp" />
+
+    <Button
+        android:id="@+id/btnClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="btnClose_onClick"
+        android:text="Cerrar Activity"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="175dp" />
+
+    <TextView
+        android:id="@+id/txtValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VACIO"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="318dp" />
+
+    <TextView
+        android:id="@+id/txtCountDown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VACIO"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="278dp" />
+
+</LinearLayout>
